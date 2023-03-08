@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.min.css?v=1.0.0">
+    <link rel="stylesheet" href="assets/css/themes/theme_blue.min.css?v=1.0.0">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Favicons for all devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/i/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/i/favicons/site.manifest.json">
+    <link rel="mask-icon" href="assets/i/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>WEBCoin Platform UI elements</title>
+</head>
+<body>
+
+
+<div class="platform">
+
+    <!-- Header -->
+    <div class="platform__header">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-sm-6 col-4">
+                    <a class="d-block d-md-none" href="platform.html">
+                        <img src="assets/i/logo-white-min.png" height="35" alt="WebCoin">
+                    </a>
+                    <div class="platform__balance">
+                        <span data-toggle="tooltip" data-placement="right" title="Your Balance"><i class="fas fa-coins"></i> 8419 WBC</span>
+                    </div>
+                </div>
+    
+                <div class="col-sm-6 col-8">
+                    <div class="platform__header-nav">
+                        <div class="notify pulsing" id="notify_toggle">
+                            <i class="notify__bell fas fa-bell"></i>
+                            <div class="notify__alert" id="notify_alert"><i class="fas fa-exclamation"></i></div>
+    
+                            <div class="notify__inner hide" id="notify">
+                                <div class="notify__wrapper">
+                                    <div class="notify__item">Buy 2918 WBC<br><span class="notify__date">(22.11.2018)</span></div>
+                                    <div class="notify__item">Welcome to WebCoin!<br><span class="notify__date">(22.11.2018)</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" data-toggle="modal" data-target="#logout_modal">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                        <a class="avatar" href="platform-profile.html">
+                            <img src="assets/i/avatar.png" width="60" height="60" alt="John Doe">
+                        </a>
+                    </div>
+                </div>
+    
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.platform__header -->
+
+    <!-- Sidebar -->
+    <div class="platform__sidebar">
+        <div class="platform__navbar-inner">
+    
+            <div class="platform__navbar-top">
+                <a class="platform__navbar-logo" href="index.html">
+                    <img src="assets/i/logo-white-long.png" height="50" alt="">
+                </a>
+                <a class="platform__navbar-profile" href="platform-profile.html">
+                    <img src="assets/i/avatar.png" width="30" height="30" alt="John Doe">
+                    <span>John Doe</span>
+                </a>
+            </div>
+    
+            <ul class="platform__nav">
+                <li>
+                    <a class="platform__nav-link  active" href="platform.html">
+                        <span>Dashboard</span>
+                        <i class="fas fa-tachometer-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-tokensale.html">
+                        <span>Tokensale</span>
+                        <i class="fas fa-coins"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-announcements.html">
+                        <span>Announcements</span>
+                        <i class="fas fa-newspaper"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-bounty.html">
+                        <span>Bounty</span>
+                        <i class="fas fa-gift"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-airdrop.html">
+                        <span>Airdrop</span>
+                        <i class="fas fa-fighter-jet"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-referral.html">
+                        <span>Referral</span>
+                        <i class="fas fa-link"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-help.html">
+                        <span>Help Center</span>
+                        <i class="fas fa-info-circle"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="ui.html">
+                        <span>UI elements</span>
+                        <i class="fab fa-uikit"></i>
+                    </a>
+                </li>
+            </ul>
+    
+        </div><!-- /.platform__navbar-inner -->
+    </div><!-- /.platform__sidebar -->
+
+
+    <!-- Content -->
+    <div class="platform__inner">
+        <div class="platform__subheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <h1 class="platform__title">UI elements</h1>
+                    </div>
+                    <div class="col-4 text-right">
+                        <!-- Add some buttons here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="platform.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">UI elements</li>
+            </ol>
+
+            <div class="block">
+                <h3 class="block__title">Template supports necessary Bootstrap 4 components: <a href="https://getbootstrap.com/docs/4.0/components/alerts/" target="_blank">Bootstrap 4 docs</a>. Some examples:</h3>
+            </div>
+
+            <div class="block">
+                <h3 class="block__title">Alerts</h3>
+
+                <div class="alert alert-primary" role="alert">
+                    This is a primary alert—check it out!
+                </div>
+                <div class="alert alert-secondary" role="alert">
+                    This is a secondary alert—check it out!
+                </div>
+                <div class="alert alert-success" role="alert">
+                    This is a success alert—check it out!
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    This is a danger alert—check it out!
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    This is a warning alert—check it out!
+                </div>
+                <div class="alert alert-info" role="alert">
+                    This is a info alert—check it out!
+                </div>
+                <div class="alert alert-light" role="alert">
+                    This is a light alert—check it out!
+                </div>
+                <div class="alert alert-dark" role="alert">
+                    This is a dark alert—check it out!
+                </div>
+            </div><!-- /.block -->
+
+            <div class="block">
+                <h3 class="block__title">Tables</h3>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="block__title">Striped</h3>
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="block">
+                <h3 class="block__title">Buttons</h3>
+
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+
+                <button type="button" class="btn btn-link">Link</button>
+
+                <hr>
+
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+
+                <button type="button" class="btn btn-outline-link">Link</button>
+            </div>
+
+            <div class="block">
+                <h3 class="block__title">Breadcrumbs</h3>
+
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                </ol>
+            </div>
+
+            <div class="block">
+                <h3 class="block__title">Pagination</h3>
+
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+
+            <div class="block">
+                <h3 class="block__title">Badges</h3>
+
+                <span class="badge badge-primary">Primary</span>
+                <span class="badge badge-secondary">Secondary</span>
+                <span class="badge badge-success">Success</span>
+                <span class="badge badge-danger">Danger</span>
+                <span class="badge badge-warning">Warning</span>
+                <span class="badge badge-info">Info</span>
+                <span class="badge badge-light">Light</span>
+                <span class="badge badge-dark">Dark</span>
+            </div>
+
+            <div class="block">
+                <h3 class="block__title">Lists</h3>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+
+        </div><!-- /.container -->
+    </div><!-- /.platform__inner -->
+
+</div><!-- /.platform -->
+
+
+
+<!-- JS -->
+<script src="assets/js/main.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.min.css?v=1.0.0">
+    <link rel="stylesheet" href="assets/css/themes/theme_blue.min.css?v=1.0.0">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Favicons for all devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/i/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/i/favicons/site.manifest.json">
+    <link rel="mask-icon" href="assets/i/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>WEBCoin Platform Profile</title>
+</head>
+<body>
+
+
+<div class="platform">
+
+    <!-- Header -->
+    <div class="platform__header">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-sm-6 col-4">
+                    <a class="d-block d-md-none" href="platform.html">
+                        <img src="assets/i/logo-white-min.png" height="35" alt="WebCoin">
+                    </a>
+                    <div class="platform__balance">
+                        <span data-toggle="tooltip" data-placement="right" title="Your Balance"><i class="fas fa-coins"></i> 8419 WBC</span>
+                    </div>
+                </div>
+    
+                <div class="col-sm-6 col-8">
+                    <div class="platform__header-nav">
+                        <div class="notify pulsing" id="notify_toggle">
+                            <i class="notify__bell fas fa-bell"></i>
+                            <div class="notify__alert" id="notify_alert"><i class="fas fa-exclamation"></i></div>
+    
+                            <div class="notify__inner hide" id="notify">
+                                <div class="notify__wrapper">
+                                    <div class="notify__item">Buy 2918 WBC<br><span class="notify__date">(22.11.2018)</span></div>
+                                    <div class="notify__item">Welcome to WebCoin!<br><span class="notify__date">(22.11.2018)</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" data-toggle="modal" data-target="#logout_modal">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                        <a class="avatar" href="platform-profile.html">
+                            <img src="assets/i/avatar.png" width="60" height="60" alt="John Doe">
+                        </a>
+                    </div>
+                </div>
+    
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.platform__header -->
+
+    <!-- Sidebar -->
+    <div class="platform__sidebar">
+        <div class="platform__navbar-inner">
+    
+            <div class="platform__navbar-top">
+                <a class="platform__navbar-logo" href="index.html">
+                    <img src="assets/i/logo-white-long.png" height="50" alt="">
+                </a>
+                <a class="platform__navbar-profile" href="platform-profile.html">
+                    <img src="assets/i/avatar.png" width="30" height="30" alt="John Doe">
+                    <span>John Doe</span>
+                </a>
+            </div>
+    
+            <ul class="platform__nav">
+                <li>
+                    <a class="platform__nav-link  active" href="platform.html">
+                        <span>Dashboard</span>
+                        <i class="fas fa-tachometer-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-tokensale.html">
+                        <span>Tokensale</span>
+                        <i class="fas fa-coins"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-announcements.html">
+                        <span>Announcements</span>
+                        <i class="fas fa-newspaper"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-bounty.html">
+                        <span>Bounty</span>
+                        <i class="fas fa-gift"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-airdrop.html">
+                        <span>Airdrop</span>
+                        <i class="fas fa-fighter-jet"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-referral.html">
+                        <span>Referral</span>
+                        <i class="fas fa-link"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="platform-help.html">
+                        <span>Help Center</span>
+                        <i class="fas fa-info-circle"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="platform__nav-link" href="ui.html">
+                        <span>UI elements</span>
+                        <i class="fab fa-uikit"></i>
+                    </a>
+                </li>
+            </ul>
+    
+        </div><!-- /.platform__navbar-inner -->
+    </div><!-- /.platform__sidebar -->
+
+
+    <!-- Content -->
+    <form action="/" method="post" enctype="multipart/form-data">
+        <div class="platform__inner">
+            <div class="platform__subheader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <h1 class="platform__title">Profile</h1>
+                        </div>
+                        <div class="col-6 text-right">
+                            <a class="btn  btn-outline-dark  btn-sm d-none d-md-inline-block" href="platform.html">Cancel</a>
+                            <button class="btn  btn-success  btn-sm" type="submit">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="platform.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                </ol>
+
+                <div class="row">
+                    <div class="col-xl-8 col-lg-7">
+
+                        <div class="block">
+                            <h3 class="block__title">Update Profile Information</h3>
+                            <div class="form-group">
+                                <label for="profile_name">Your name</label>
+                                <input class="form-control" type="text" name="profile_name" id="profile_name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="profile_email">Your email</label>
+                                <input class="form-control" type="email" name="profile_email" id="profile_email" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="profile_country">Your country</label>
+                                <select class="form-control" name="profile_country" id="profile_country">
+                                    <option value="1">China</option>
+                                    <option value="2">Japan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="profile_name">Ethereum ERC-20 Address</label>
+                                <input class="form-control" type="text" name="profile_ethereum" id="profile_ethereum" placeholder="0x....">
+                            </div>
+
+                            <hr>
+                            <h3 class="block__title">Change Password</h3>
+                            <div class="form-group">
+                                <label for="current_password">Current Password</label>
+                                <input class="form-control" type="password" name="current_password" id="current_password" placeholder="Enter current password">
+                            </div>
+                            <label for="new_password">New Password</label>
+                            <input class="form-control" type="password" name="new_password" id="new_password" placeholder="Enter new password">
+                        </div><!-- /.block -->
+                    </div><!-- /.col -->
+
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="block">
+                            <h3 class="block__title">Your avatar</h3>
+                            <div class="form-group">
+                                <img class="img-fluid" src="assets/i/avatar.png" width="350" height="350" alt="John Doe">
+                            </div>
+                            <label for="profile_avatar">Change avatar</label>
+                            <input class="form-control-file" type="file" id="profile_avatar">
+                        </div>
+                    </div><!-- /.col -->
+
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.platform__inner -->
+    </form>
+
+
+    <!-- Footer -->
+    <div class="platform__footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    &copy; Copyright 2018 WebCoin
+                </div>
+                <div class="col-6">
+                    <div class="social  social--platform">
+                        <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-slack"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-bitcoin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Logout modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="logout_modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Exit?</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn  btn-block  btn-outline-dark" type="button" data-dismiss="modal">No</button>
+                        </div>
+                        <div class="col">
+                            <button class="btn  btn-block  btn-outline-success" type="button" data-dismiss="modal">Yes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div><!-- /.platform -->
+
+
+
+<!-- JS -->
+<script src="assets/js/main.min.js"></script>
+
+</body>
+</html>

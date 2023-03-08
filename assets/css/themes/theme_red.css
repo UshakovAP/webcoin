@@ -1,0 +1,41 @@
+.platform__header {
+    background-color: #e74c3c;
+}
+
+.platform__sidebar {
+    background-color: #2b2828;
+}
+
+@media (max-width: 767px) {
+    .platform__sidebar {
+        background: #2b2828;
+    }
+}
+
+.platform__navbar-top {
+    background-color: #e74c3c;
+}
+
+.platform__nav-link:hover {
+    color: #fff;
+}
+
+.platform__nav-link:hover:not(.active) {
+    background-color: #ea6153;
+}
+
+.platform__nav-link.active {
+    background-color: #e74c3c;
+}
+
+.platform__header-nav > a {
+    color: #fff;
+}
+
+.platform__header-nav > a:hover {
+    background-color: #d62c1a;
+}
+
+.notify:hover {
+    background-color: #d62c1a;
+}

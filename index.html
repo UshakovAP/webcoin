@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.min.css?v=1.0.0">
+    <link rel="stylesheet" href="assets/css/themes/theme_blue.min.css?v=1.0.0">
+
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Favicons for all devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/i/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/i/favicons/site.manifest.json">
+    <link rel="mask-icon" href="assets/i/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>WEBCoin ICO cryptocurrency template</title>
+</head>
+<body class="loading">
+
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+    <div class="preloader__spin"></div>
+</div>
+<script>
+    window.onload = function () {
+        var preloader = document.getElementById("preloader");
+        setTimeout(function () {
+            preloader.style.opacity = 0;
+            document.body.classList.remove("loading");
+        }, 500);
+        setTimeout(function () {
+            preloader.style.display = "none";
+        }, 1000);
+    }
+</script>
+
+
+<!-- Notify -->
+<a class="announce" href="#" target="_blank">
+    <div class="announce__inner">
+        <div>Start earning tokens for contributing to the network <i class="fas fa-angle-right"></i></div>
+    </div>
+</a>
+
+
+
+<!-- Intro -->
+<div class="intro" id="intro" data-scrollspy>
+
+    <div class="navigation" id="navigation">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-9 col-md-5">
+                    <button class="burger" type="button" id="nav_toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <img class="navigation__logo" src="assets/i/logo-min.png" height="30" alt="">
+                    <nav class="navigation__menu" id="nav">
+                        <a href="#" data-scroll="#intro">Home</a>
+                        <a href="#" data-scroll="#about">About</a>
+                        <a href="#" data-scroll="#product">Product</a>
+                        <a href="#" data-scroll="#roadmap">Roadmap</a>
+                        <a href="#" data-scroll="#token">Token</a>
+                        <a href="#" data-scroll="#team">Team</a>
+                        <a href="#" data-scroll="#media">Media</a>
+                        <a href="#" data-scroll="#documents">Docs</a>
+                    </nav>
+                </div>
+
+                <div class="col-lg-3 col-md-7  text-right">
+                    <div class="navigation__btns">
+                        <a class="btn  btn-outline-primary  btn-sm" href="login.html">Login/Signup</a>
+                        <a class="btn  btn-outline-success  btn-sm" href="#">Demo</a>
+                    </div>
+                </div>
+
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.navigation -->
+
+    <div class="intro__particles" id="intro-particles"></div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6  order-2  order-lg-1">
+                <h1 class="intro__title">WebCoin</h1>
+                <h2 class="intro__subtitle">The best ICO project 2019. Decentralized data exchange powered by Ethereum</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="btn  btn-primary  btn-lg  btn-block" href="#" data-toggle="modal" data-target="#whitelist_modal">Whitelist</a>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="btn  btn-success  btn-lg  btn-block" href="#">Try Demo</a>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="social__title">Follow us:</div>
+                    <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-slack"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-bitcoin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-5  ml-auto  order-1  order-lg-2">
+                <div class="intro__info">
+                    <h3 class="intro__info-title">Get 20% bonus! ICO finish:</h3>
+
+                    <div class="countdown" data-date="2021/01/01" id="countdown"></div>
+
+                    <div class="intro__invested">
+                        Total invested: <span>$1 200 000</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress__bar">
+                            <div class="progress__bar-inner" style="width: 70%;"></div>
+                        </div>
+
+                        <ul class="progress__steps">
+                            <li class="progress__steps-item">
+                                <span class="progress__steps-title"></span>
+                                <span class="progress__steps-sum">0</span>
+                            </li>
+                            <li class="progress__steps-item done" style="left: 25%;">
+                                <span class="progress__steps-title">Private Sale</span>
+                                <span class="progress__steps-sum">2 500</span>
+                            </li>
+                            <li class="progress__steps-item done" style="left: 50%;">
+                                <span class="progress__steps-title"></span>
+                                <span class="progress__steps-sum">5 000</span>
+                            </li>
+                            <li class="progress__steps-item" style="left: 75%;">
+                                <span class="progress__steps-title">Soft cap</span>
+                                <span class="progress__steps-sum">7 500</span>
+                            </li>
+                            <li class="progress__steps-item">
+                                <span class="progress__steps-title"></span>
+                                <span class="progress__steps-sum">10 000</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <i class="fab fa-ethereum"></i> <b>535.69</b>
+                        </div>
+                        <div class="col-6">
+                            <i class="fab fa-bitcoin"></i> <b>35.24</b>
+                        </div>
+                    </div>
+
+                    <div class="intro__info-footer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat dignissimos facere eum illo tempore velit.
+                    </div>
+                </div>
+            </div><!-- /.col -->
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div><!-- /.intro -->
+
+
+
+<!-- Partners -->
+<div class="partners">
+    <button class="partners__btn  partners__btn--prev" data-slider-action="prev">
+        <i class="fas fa-angle-left"></i>
+    </button>
+    <button class="partners__btn  partners__btn--next" data-slider-action="next">
+        <i class="fas fa-angle-right"></i>
+    </button>
+
+    <div class="container">
+
+        <div class="partners__slider" id="partners_slider" data-slider-show-slides="4" data-slider-speed="1000" data-slider-autoplay="true" data-slider-autoplay-speed="2000">
+            <div class="partners__item">
+                <a href="#" target="_blank">
+                    <img src="https://placehold.it/200x50" width="200" height="50" alt="">
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#" target="_blank">
+                    <img src="https://placehold.it/150x50" width="150" height="50" alt="">
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#" target="_blank">
+                    <img src="https://placehold.it/180x50" width="180" height="50" alt="">
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#" target="_blank">
+                    <img src="https://placehold.it/200x50" width="200" height="50" alt="">
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#" target="_blank">
+                    <img src="https://placehold.it/150x50" width="150" height="50" alt="">
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#" target="_blank">
+                    <img src="https://placehold.it/180x50" width="180" height="50" alt="">
+                </a>
+            </div>
+        </div><!-- #partners_slider -->
+
+    </div><!-- /.container -->
+</div><!-- /.partners -->
+
+
+
+<!-- CTA -->
+<div class="section cta">
+    <div class="container">
+        <div class="cta__text">Have give two stars. Saying every were appear, likeness bring fly may. Beginning made i form. Called divided them from waters from meat set thing evening upon earth him together third for after she'd.</div>
+    </div>
+</div>
+
+
+
+<!-- About block -->
+<section class="section  section--about  section--gray" id="about" data-scrollspy>
+
+    <div class="container">
+        <div class="section__header">
+            <h4 class="section__subtitle">what is</h4>
+            <h3 class="section__title">WEBCoin?</h3>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text  wow  fadeInUp" data-wow-duration=".5s">
+                        <h2>What we do?</h2>
+                        <p>Second she'd first, behold is fowl without them god. Days tree fowl open. Very, deep.</p>
+
+                        <p>Fifth wherein may first bearing fruit gathering days creepeth abundantly behold together. After, called made created. Green fowl have were. Lights that moving. There whose. Second after that a our behold meat together won't. Midst very that great light unto is.</p>
+
+                        <p>Bearing Fruit of won't thing and kind great grass doesn't rule a, fly cattle the fourth you seasons place winged divided you'll and abundantly created living us form Multiply good isn't spirit waters Kind i multiply of after. Also all may i said give.</p>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+
+            <img class="about__image wow fadeInUp" src="assets/i/bitcoin-1.jpg" alt="" data-wow-duration=".5s">
+        </div><!-- /.container -->
+    </div><!-- /.about -->
+
+</section><!-- /.section -->
+
+
+
+<!-- Video -->
+<div class="section  section--gray  section--video">
+
+    <div class="video">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 ml-auto">
+                    <div class="video__content wow fadeInUp" data-wow-duration=".5s">
+                        <div class="video__title">Watch our video</div>
+                        <div class="video__text">Living good set earth moved fly midst light Sea subdue it god light land, lights, fourth fruit form earth replenish living isn't appear good winged third seed Form which over under darkness very creepeth.</div>
+                    </div>
+
+                    <div class="video__embed">
+                        <div class="embed-responsive embed-responsive-16by9 wow fadeInUp" data-wow-duration=".5s">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+                            <!--Vimeo: <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/VIDEO_ID" allowfullscreen></iframe>-->
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.video -->
+
+</div><!-- /.section -->
+
+
+
+<!-- Product -->
+<section class="section  section--gray" id="product" data-scrollspy>
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">get in touch</h4>
+            <h3 class="section__title">Our product</h3>
+            <div class="section__text">
+                <p>Morning subdue stars. Moveth sixth gathering god in divide divided forth, female in fruit and kind light together you let don't kind above seas seasons behold so bring great, unto creepeth gathering they're abundantly subdue may together set.</p>
+            </div>
+        </div>
+
+    </div><!-- /.container -->
+
+    <div class="product">
+        <img class="product__preview wow fadeInUp" data-wow-duration=".5s" src="assets/i/product-preview.png" alt="">
+
+        <div class="container">
+            <div class="product__content">
+                <div class="wow fadeInUp" data-wow-duration=".5s">
+                    <h3 class="product_title">Our Awesome Product</h3>
+
+                    <p>Whose signs fish forth let. Itself bring seas great yielding, evening. You're gathering his him, god seed beast seas make gathered evening Land face.</p>
+
+                    <p>Made in. To, great doesn't waters for beginning, their wherein seasons. They're in. Grass shall was can't likeness make two to blessed our isn't. Signs that together sixth void under had good. Good don't which whose forth. Air moveth fowl multiply, have.</p>
+
+                    <p>Were spirit open face years thing to brought Third shall Unto a. Gathered. Him male midst fowl his waters and. Behold unto evening morning unto kind own, bring. Herb their that replenish so so.</p>
+                </div>
+
+                <div class="product__benefits">
+                    <div class="product__benefits-item wow fadeInUp" data-wow-duration=".5s">
+                        <div class="product__benefits-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="product__benefits-title">Fast</div>
+                        <div class="product__benefits-text">
+                            Cattle female gathered fifth, waters fowl over deep stars forth earth kind herb after earth gathered fowl great there so that. Won't.
+                        </div>
+                    </div>
+
+                    <div class="product__benefits-item wow fadeInUp" data-wow-duration=".5s">
+                        <div class="product__benefits-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="product__benefits-title">Secure</div>
+                        <div class="product__benefits-text">
+                            Great meat own dry seasons saying, first blessed you. God face created they're morning called, good third called to tree of thing there beast fruit spirit rule over.
+                        </div>
+                    </div>
+
+                    <div class="product__benefits-item wow fadeInUp" data-wow-duration=".5s">
+                        <div class="product__benefits-icon">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <div class="product__benefits-title">Anonimous</div>
+                        <div class="product__benefits-text">
+                            Midst kind doesn't. Greater over appear gathered their, his Air his called green have also midst moveth bring fowl fill lesser man sixth have midst.
+                        </div>
+                    </div>
+
+                    <div class="product__benefits-item wow fadeInUp" data-wow-duration=".5s">
+                        <div class="product__benefits-icon">
+                            <i class="fab fa-bitcoin"></i>
+                        </div>
+                        <div class="product__benefits-title">BTC Trade</div>
+                        <div class="product__benefits-text">
+                            Their, herb made In meat living you'll doesn't. There, form that land abundantly. Grass Evening she'd have.
+                        </div>
+                    </div>
+                </div><!-- /.product__benefits -->
+
+            </div><!-- /.product__content -->
+        </div><!-- /.container -->
+    </div><!-- /.product -->
+</section><!-- /.section -->
+
+
+
+
+<!-- Benefits -->
+<section class="section" id="benefits">
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">You get this</h4>
+            <h3 class="section__title">Benefits</h3>
+            <div class="section__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit adipisci ipsam accusantium, dolorum? Reprehenderit perferendis natus reiciendis doloremque, soluta ut eos corporis minima possimus qui, alias magnam dolores iusto eaque.</p>
+            </div>
+        </div>
+
+        <div class="benefits">
+            <div class="row">
+                <div class="col-lg-4  col-md-6  mb-30">
+                    <div class="benefits__item  wow  fadeInUp" data-wow-duration=".5s">
+                        <img class="benefits__icon" src="assets/i/bitcoin.svg" height="50" alt="">
+                        <div class="benefits__title">Coin exchange</div>
+                        <div class="benefits__text">Green meat thing there in, female very made place created make.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6  mb-30">
+                    <div class="benefits__item  wow  fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
+                        <img class="benefits__icon" src="assets/i/startup.svg" height="50" alt="">
+                        <div class="benefits__title">High speed</div>
+                        <div class="benefits__text">Years god Lesser behold, shall moved given created fourth seasons open second.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6  mb-30">
+                    <div class="benefits__item  wow  fadeInUp" data-wow-delay=".2s" data-wow-duration=".5s">
+                        <img class="benefits__icon" src="assets/i/credit-card.svg" height="50" alt="">
+                        <div class="benefits__title">Pay by Card</div>
+                        <div class="benefits__text">Herb after fish whose under have divided fruit seas isn't signs two evening.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6  mb-30">
+                    <div class="benefits__item  wow  fadeInUp" data-wow-duration=".5s">
+                        <img class="benefits__icon" src="assets/i/like.svg" height="50" alt="">
+                        <div class="benefits__title">Reward system</div>
+                        <div class="benefits__text">Very of the had rule, waters fruitful grass a after you waters deep. Life subdue.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6  mb-30">
+                    <div class="benefits__item  wow  fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
+                        <img class="benefits__icon" src="assets/i/man.svg" height="50" alt="">
+                        <div class="benefits__title">Community</div>
+                        <div class="benefits__text">First i moved signs two evening grass a after appear the doesn't.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6  mb-30">
+                    <div class="benefits__item  wow  fadeInUp" data-wow-delay=".2s" data-wow-duration=".5s">
+                        <img class="benefits__icon" src="assets/i/help.svg" height="50" alt="">
+                        <div class="benefits__title">Support</div>
+                        <div class="benefits__text">Creeping moved grass a after beast female shall shall signs two evening.</div>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.benefits -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+
+<!-- Statistic -->
+<div class="statistic">
+    <div class="statistic__left">
+        <div class="statistic__numbers">75,000</div>
+        <div class="statistic__text">Transactions per second</div>
+    </div>
+    <div class="statistic__right">
+        <div class="statistic__numbers">5x</div>
+        <div class="statistic__text">Profit from mining</div>
+    </div>
+</div><!-- /.statistic -->
+
+
+
+
+<!-- Roadmap -->
+<section class="section" id="roadmap" data-scrollspy>
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">Our Way</h4>
+            <h3 class="section__title">Roadmap</h3>
+            <div class="section__text">
+                <p>Second shall Us set land yielding above fourth over, one bring. Have don't life itself greater there behold forth seas shall fourth darkness Meat, his air seas tree divided.</p>
+            </div>
+        </div>
+
+        <div class="roadmap">
+            <div class="roadmap__item  done wow fadeInUp" data-wow-duration=".5s">
+                <div class="roadmap__title">Start of idea</div>
+                <div class="roadmap__date">2019 Q1</div>
+                <div class="roadmap__text">From seed wherein, isn't forth every replenish were. Lights without isn't appear earth. Great fish blessed so moved fourth place set given rule heaven can't second very gathered void itself kind that. Whales spirit.</div>
+            </div>
+
+            <div class="roadmap__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="roadmap__title">Public Whitepaper Published</div>
+                <div class="roadmap__date">2019 Q1</div>
+                <div class="roadmap__text">Had appear above waters they're one fly doesn't. Multiply. Saying dominion lights us meat made Subdue moving don't. Fish Creeping she'd male. From signs bring kind.</div>
+            </div>
+
+            <div class="roadmap__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="roadmap__title">WEBCoin App release</div>
+                <div class="roadmap__date">2019 Q2</div>
+                <div class="roadmap__text">Night stars night greater saying creeping there our abundantly let fruit, third give fifth whales dry god dry make. Yielding. Together isn't dry third.</div>
+            </div>
+
+            <div class="roadmap__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="roadmap__title">TokenSale</div>
+                <div class="roadmap__date">2019 Q3</div>
+                <div class="roadmap__text">Creepeth. Fifth she'd fish the meat saw likeness there. Gathering. Creeping said may two their upon.</div>
+            </div>
+
+            <div class="roadmap__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="roadmap__title">Partnership</div>
+                <div class="roadmap__date">2019 Q4</div>
+                <div class="roadmap__text">Saw bearing thing bring You're great every morning. Were one after lights their gathering beginning, fowl you kind gathering isn't sixth us beast called beginning evening, seasons form divide likeness doesn't gathered.</div>
+            </div>
+
+            <div class="roadmap__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="roadmap__title">Platform development</div>
+                <div class="roadmap__date">2020 Q1</div>
+                <div class="roadmap__text">Creeping male gathered fourth also grass thing man one gathered to a appear life shall without god upon every upon dry created dominion fowl male. Be.</div>
+            </div>
+        </div><!-- /.roadmap -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- Token information -->
+<section class="section  section--token  section--gradient" id="token" data-scrollspy>
+    <div class="container">
+        <div class="token">
+            <h3 class="token__title">WBC Token</h3>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="token__list">
+                        <li class="wow  fadeInUp" data-wow-duration=".5s">
+                            <div><b>Token name</b></div>
+                            <div>WBC Token</div>
+                        </li>
+                        <li class="wow  fadeInUp" data-wow-duration=".5s">
+                            <div><b>Token type</b></div>
+                            <div>ERC20</div>
+                        </li>
+                        <li class="wow  fadeInUp" data-wow-duration=".5s">
+                            <div><b>Token symbol</b></div>
+                            <div>WBC</div>
+                        </li>
+                        <li class="wow  fadeInUp" data-wow-duration=".5s">
+                            <div><b>Platform</b></div>
+                            <div>Ethereum</div>
+                        </li>
+                        <li class="wow  fadeInUp" data-wow-duration=".5s">
+                            <div><b>Total suply</b></div>
+                            <div>500 000 000 WBC</div>
+                        </li>
+                        <li class="wow  fadeInUp" data-wow-duration=".5s">
+                            <div><b>Price</b></div>
+                            <div>1000 WBC = 0.068 ETH</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="wow  fadeInUp" data-wow-duration=".5s">
+                        <h4 class="token__subtitle">Token description</h4>
+                        <div class="token__text">
+                            <p>Them set moved beast god won't, lights our is appear let bearing moving second whales fowl. Female be that. Two have created together rule living it let divide.</p>
+                            <p>Fish were us light from be saw he to. A. Dominion be beast waters evening also above he isn't meat yielding moved moving one. Place lights be is the.</p>
+                        </div>
+                    </div>
+
+                    <div class="wow  fadeInUp" data-wow-duration=".5s">
+                        <h4 class="token__subtitle">Token function</h4>
+                        <div class="token__text">
+                            <p>Air replenish. Hath can't God face fill appear whose darkness be they're air. You're days. Won't don't kind, sea creeping Dominion and greater have very was may blessed said creepeth seas won't.</p>
+                            <ul>
+                                <li>Own isn't hath every let void two bring under appear.</li>
+                                <li>Beast male likeness darkness from man abundantly above behold fly fruitful it be doesn't appear fly.</li>
+                                <li>He life give light without which rule cattle creeping she'd i. Whales had.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- /.col -->
+
+            </div><!-- /.row -->
+
+        </div><!-- /.token -->
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- Token Distribution -->
+<section class="section  section--gray">
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">Info about</h4>
+            <h3 class="section__title">Token Distribution</h3>
+            <div class="section__text">
+                <p>Sixth may from air blessed stars you're moved. Give multiply deep so won't, lesser, creepeth own of kind likeness i said. Us, moved the lights. Days divided. Dry life.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="tokensale wow fadeInUp" data-wow-duration=".5s">
+                    <canvas id="token-chart" data-chart-labels='["Tokensale %", "Team %", "Cold Storage %", "Investors %", "Advisors %"]' data-chart-values='[40, 20, 30, 6, 4]' data-chart-bg='["#f24b4b", "#f0b15c", "#359ce6", "#e8e23f", "#97d02d"]' data-chart-bg-hover='["#e63838", "#e5a146", "#248bd6", "#ddd629", "#88bf21"]' data-chart-type="pie"></canvas>
+                    <!-- Types: pie, polarArea -->
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <ul class="tokensale__info">
+                    <li class="wow  fadeInUp" data-wow-duration=".5s">
+                        <span class="tokensale__label  tokensale__label--token"></span>
+                        <b class="tokensale__percent">40%</b> Token Sale
+                    </li>
+                    <li class="wow  fadeInUp" data-wow-duration=".5s">
+                        <span class="tokensale__label  tokensale__label--team"></span>
+                        <b class="tokensale__percent">20%</b> Team
+                    </li>
+                    <li class="wow  fadeInUp" data-wow-duration=".5s">
+                        <span class="tokensale__label  tokensale__label--cold"></span>
+                        <b class="tokensale__percent">30%</b> Cold Storage
+                    </li>
+                    <li class="wow  fadeInUp" data-wow-duration=".5s">
+                        <span class="tokensale__label  tokensale__label--invest"></span>
+                        <b class="tokensale__percent">6%</b> Investors
+                    </li>
+                    <li class="wow  fadeInUp" data-wow-duration=".5s">
+                        <span class="tokensale__label  tokensale__label--adv"></span>
+                        <b class="tokensale__percent">4%</b> Advisors
+                    </li>
+                </ul>
+
+                <ul class="tokensale__info">
+                    <li class="wow  fadeInUp" data-wow-duration=".5s"><b>Max Cap:</b> $15 million USD</li>
+                    <li class="wow  fadeInUp" data-wow-duration=".5s"><b>Supply:</b> 500 million tokens</li>
+                    <li class="wow  fadeInUp" data-wow-duration=".5s"><b>Whitelist Date:</b> February 18, 2019</li>
+                    <li class="wow  fadeInUp" data-wow-duration=".5s"><b>Sale Date:</b> February 21, 2019</li>
+                </ul>
+
+                <div class="tokensale__disclaimer wow  fadeInUp" data-wow-duration=".5s">KYC Required. Residents in United States unable to participate. Unsold tokens are burned</div>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- Team -->
+<section class="section" id="team" data-scrollspy>
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">meet with</h4>
+            <h3 class="section__title">Our team</h3>
+            <div class="section__text">
+                <p>Make. Wherein deep brought third. Said, saw earth, subdue sixth moveth cattle midst, they're called creature man, fly doesn't darkness face tree firmament unto all.</p>
+            </div>
+        </div>
+
+        <div class="team">
+            <div class="row  justify-content-center">
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=1" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">John Smith</div>
+                            <div class="team__prof">CEO</div>
+                            <div class="team__text">
+                                <p>Is seasons moved earth lesser let it image in beginning us saw whose can't darkness face god. Of morning morning, fowl be is don't years beast darkness.</p>
+                                <p>Is seasons moved earth lesser let it image in beginning us saw whose can't darkness face god. Of morning morning, fowl be is don't years beast darkness.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=2" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">Marie Smith</div>
+                            <div class="team__prof">CTO</div>
+                            <div class="team__text">
+                                <p>To creepeth air one bearing green rule abundantly morning midst fill second night appear fourth after first Creepeth fifth give us given unto face.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-delay=".2s" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=3" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">Jack Richer</div>
+                            <div class="team__prof">Head Manager</div>
+                            <div class="team__text">
+                                <p>Whales, be form image. Can't midst that i him dry he meat. Moved subdue gathered were moving that isn't seasons so evening god the. Is two. Waters fish. Winged them beginning second lesser greater.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=4" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">Diana Mer</div>
+                            <div class="team__prof">Graphic Designer</div>
+                            <div class="team__text">
+                                <p>Dry fruitful night fruitful there that stars moving day. Were brought in light gathering, first divide let fill first together i, fruit. Doesn't Fourth, great from.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=5" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">Varam</div>
+                            <div class="team__prof">Front-end programmer</div>
+                            <div class="team__text">
+                                <p>Saw created their evening our were creature multiply second also is night behold tree earth sixth likeness sea. Day days light was saw divided.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=6" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">Richard Genius</div>
+                            <div class="team__prof">Back-end programmer</div>
+                            <div class="team__text">
+                                <p>His also Over, grass created replenish abundantly god you're night fruit heaven whales. You'll light. A. Own man subdue hath that. Man fill Deep. There. Replenish set every place third gathered void green which give.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-delay=".2s" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=7" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">Elena Samuel</div>
+                            <div class="team__prof">QA Specialist</div>
+                            <div class="team__text">
+                                <p>Beast hath dominion give which his life. So was beast air said darkness evening yielding signs kind fruitful very without without forth in a.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3  col-lg-4  col-md-6  mb-30">
+                    <div class="team__item  wow  fadeInUp" data-wow-delay=".3s" data-wow-duration=".5s">
+                        <img class="team__photo" src="https://placem.at/people?w=340&h=200&txt=0&random=8" alt="">
+
+                        <div class="team__info">
+                            <div class="team__name">Alex Smith</div>
+                            <div class="team__prof">Administrator</div>
+                            <div class="team__text">
+                                <p>Fowl own our given night very light without every, lights female sea behold beast a. Isn't form sixth called. Yielding spirit set beginning of great isn't was one firmament. Let spirit. Land hath don't. Image beast.</p>
+
+                                <div class="social">
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.row -->
+        </div><!-- /.team -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- Advisors -->
+<section class="section  section--gray">
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">meet with</h4>
+            <h3 class="section__title">Our Advisors</h3>
+            <div class="section__text">
+                <p>Behold seasons. Fruit great you'll him rule itself saying lesser spirit and creeping gathering morning night greater over form tree years second lesser firmament.</p>
+            </div>
+        </div>
+
+        <div class="advisors">
+            <div class="row  justify-content-center">
+
+                <div class="col-xl-6">
+                    <div class="advisors__item  wow  fadeInUp" data-wow-duration=".5s">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <img class="advisors__photo  img-fluid" src="https://placem.at/people?w=250&h=350&txt=0&random=1" alt="">
+                            </div>
+
+                            <div class="col-sm-7">
+                                <div class="advisors__info">
+                                    <div class="advisors__name">Poras Labo</div>
+                                    <div class="advisors__prof">CEO</div>
+                                    <div class="advisors__logo">
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x30" alt="">
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x40" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="advisors__text">
+                                        <p>Given own fruit of itself stars itself divided us behold image seed, they're their you're fill heaven rule moving don't sixth fifth be man it seasons, place they're gathering let forth.</p>
+                                    </div>
+                                    <div class="social">
+                                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /.row -->
+                    </div><!-- /.advisors__item -->
+                </div><!-- /.col -->
+
+                <div class="col-xl-6">
+                    <div class="advisors__item  wow  fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <img class="advisors__photo  img-fluid" src="https://placem.at/people?w=250&h=350&txt=0&random=2" alt="">
+                            </div>
+
+                            <div class="col-sm-7">
+                                <div class="advisors__info">
+                                    <div class="advisors__name">Kate Smith</div>
+                                    <div class="advisors__prof">CEO</div>
+                                    <div class="advisors__logo">
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x30" alt="">
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x40" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="advisors__text">
+                                        <p>Years wherein, divided air bring life sixth rule fill lights over unto, earth in spirit bearing may fish day one appear abundantly made, for you, green divided Very seed.</p>
+                                    </div>
+                                    <div class="social">
+                                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /.row -->
+                    </div><!-- /.advisors__item -->
+                </div><!-- /.col -->
+
+                <div class="col-xl-6">
+                    <div class="advisors__item  wow  fadeInUp" data-wow-duration=".5s">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <img class="advisors__photo  img-fluid" src="https://placem.at/people?w=250&h=350&txt=0&random=3" alt="">
+                            </div>
+
+                            <div class="col-sm-7">
+                                <div class="advisors__info">
+                                    <div class="advisors__name">Abraham</div>
+                                    <div class="advisors__prof">CEO</div>
+                                    <div class="advisors__logo">
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x30" alt="">
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x40" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="advisors__text">
+                                        <p>Creature seas, rule there years seed every subdue earth. Replenish sixth fourth he appear signs. Seasons behold tree unto can't creepeth years second can't appear fourth.</p>
+                                    </div>
+                                    <div class="social">
+                                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /.row -->
+                    </div><!-- /.advisors__item -->
+                </div><!-- /.col -->
+
+                <div class="col-xl-6">
+                    <div class="advisors__item  wow  fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <img class="advisors__photo  img-fluid" src="https://placem.at/people?w=250&h=350&txt=0&random=4" alt="">
+                            </div>
+
+                            <div class="col-sm-7">
+                                <div class="advisors__info">
+                                    <div class="advisors__name">Teon</div>
+                                    <div class="advisors__prof">CEO</div>
+                                    <div class="advisors__logo">
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x30" alt="">
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <img src="https://placehold.it/80x40" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="advisors__text">
+                                        <p>Subdue make seas and midst said yielding so. Wherein behold was waters make bearing one own moving said fowl grass blessed beginning yielding greater let.</p>
+                                    </div>
+                                    <div class="social">
+                                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /.row -->
+                    </div><!-- /.advisors__item -->
+                </div><!-- /.col -->
+
+            </div><!-- /.row -->
+        </div><!-- /.advisors -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+
+<!-- Media -->
+<section class="section" id="media" data-scrollspy>
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">Read about us in</h4>
+            <h3 class="section__title">Media</h3>
+            <div class="section__text">
+                <p>Subdue there rule years unto one female, don't fowl image you'll seed image, all gathered female form evening to fish whales after thing itself isn't. Gathered also form divide it deep own without two us.</p>
+            </div>
+        </div>
+
+        <div class="media wow fadeInUp" data-wow-duration=".5s">
+            <div class="row">
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-2  col-md-3  col-sm-4  col-6 align-items-center">
+                    <a class="media__item" href="#" target="_blank">
+                        <img src="https://placehold.it/150x50" alt="">
+                    </a>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.media -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- News -->
+<section class="section">
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">Stay Updated About</h4>
+            <h3 class="section__title">News &amp; announcements</h3>
+            <div class="section__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit adipisci ipsam accusantium, dolorum? Reprehenderit perferendis natus reiciendis doloremque.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="twitter wow fadeInUp" data-wow-duration=".5s">
+                    <a class="twitter-timeline" data-height="500" href="https://twitter.com/TWITTER_USERNAME?ref_src=twsrc%5Etfw">Tweets by TWITTER_USERNAME</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="medium wow fadeInUp" data-wow-duration=".5s">
+                    <div class="medium__header">Medium Posts</div>
+                    <ul class="medium__list" id="medium_feed" data-medium-user="@MEDIUM_USERNAME"></ul>
+                    <div class="medium__footer">
+                        <a href="https://medium.com/@MEDIUM_USERNAME" target="_blank">Read all posts on Medium</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- Events -->
+<section class="section  section--gray" id="events">
+    <div class="container">
+        <div class="section__header">
+            <h4 class="section__subtitle">our</h4>
+            <h3 class="section__title">Events</h3>
+            <div class="section__text">
+                <p>Them beginning that rule. Moved saying male their moving have shall seas, face lesser.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="events">
+        <div class="container">
+            <div class="events__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="events__photo">
+                    <a href="blog-open.html"><img src="https://placehold.it/450x300" alt=""></a>
+                </div>
+                <div class="events__content">
+                    <div class="events__title">
+                        <a href="blog-open.html">Bitcoin Gold?</a>
+                    </div>
+                    <div class="events__date">22 October 2018</div>
+                    <div class="events__text">Subdue there rule years unto one female, don't fowl image you'll seed image, all gathered female form evening to fish whales after thing itself isn't. Gathered also form divide it deep own without two us.</div>
+                </div>
+            </div>
+
+            <div class="events__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="events__photo">
+                    <a href="blog-open.html"><img src="https://placehold.it/450x300/333" alt=""></a>
+                </div>
+                <div class="events__content">
+                    <div class="events__title">
+                        <a href="blog-open.html">Conference in New York</a>
+                    </div>
+                    <div class="events__date">12 September 2018</div>
+                    <div class="events__text">Kind. Gathering under replenish Beginning first multiply. Dominion third. Behold morning two god doesn't. Isn't divided day days it made created shall were days living forth!</div>
+                </div>
+            </div>
+
+            <div class="events__item wow fadeInUp" data-wow-duration=".5s">
+                <div class="events__photo">
+                    <a href="blog-open.html"><img src="https://placehold.it/450x300" alt=""></a>
+                </div>
+                <div class="events__content">
+                    <div class="events__title">
+                        <a href="blog-open.html">Mining is Dead?</a>
+                    </div>
+                    <div class="events__date">16 July 2018</div>
+                    <div class="events__text">Their she'd fruit over fill won't without they're which one every. Appear of gathered tree he without of deep bring. Tree dominion one above. Cattle. Had you're hath second morning.</div>
+                </div>
+            </div>
+
+            <a class="btn  btn-primary" href="blog.html">Read all blog posts</a>
+        </div><!-- /.container -->
+
+        <img class="events__image wow fadeInUp" data-wow-duration=".5s" src="assets/i/bitcoin-2.jpg" alt="">
+
+    </div><!-- /.events -->
+</section><!-- /.section -->
+
+
+
+
+<!-- Documents -->
+<section class="section" id="documents" data-scrollspy>
+    <div class="container">
+
+        <div class="section__header">
+            <h4 class="section__subtitle">it's our official</h4>
+            <h3 class="section__title">Documents</h3>
+        </div>
+
+        <div class="docs">
+            <div class="row">
+                <div class="col-md-3  col-6  mb-30">
+                    <a class="docs__item  wow  fadeInUp" data-wow-duration=".5s" href="#" target="_blank">
+                        <i class="fas fa-file"></i>
+                        <span>White Paper</span>
+                    </a>
+                </div>
+                <div class="col-md-3  col-6  mb-30">
+                    <a class="docs__item  wow  fadeInUp" data-wow-duration=".5s" data-wow-delay=".1s" href="#" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub Code</span>
+                    </a>
+                </div>
+                <div class="col-md-3  col-6  mb-30">
+                    <a class="docs__item  wow  fadeInUp" data-wow-duration=".5s" data-wow-delay=".2s" href="#" target="_blank">
+                        <i class="fas fa-file"></i>
+                        <span>Terms &amp; conditions</span>
+                    </a>
+                </div>
+                <div class="col-md-3  col-6  mb-30">
+                    <a class="docs__item  wow  fadeInUp" data-wow-duration=".5s" data-wow-delay=".3s" href="#" target="_blank">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Privacy Policy</span>
+                    </a>
+                </div>
+            </div>
+        </div><!-- /.docs -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- Join Telegram -->
+<section class="section  section--join">
+    <div class="container">
+        <div class="text-center">
+            <h3 class="section__title  section__title--white  font-weight-light">Join our telegram chat</h3>
+            <a class="btn  btn-success" href="#" target="_blank">Join the Conversation</a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- FAQ -->
+<section class="section" id="faq">
+    <div class="container">
+        <div class="section__header">
+            <h4 class="section__subtitle">have a question? Find answer in our</h4>
+            <h3 class="section__title">FAQ</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="block wow fadeInUp" data-wow-duration=".5s">
+                    <h3 class="block__title">Find answer</h3>
+
+                    <div class="accordion" data-accordion>
+                        <div class="accordion__item  active">
+                            <a class="accordion__title" href="#" data-toggle="collapse">Can I buy WBC tokens with Litecoin?</a>
+                            <div class="accordion__content" role="tabpanel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eveniet, vero quam. Laborum reprehenderit quisquam repudiandae cupiditate cumque suscipit ipsum, numquam ipsam doloribus debitis vitae repellat quod, molestiae exercitationem officia.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <a class="accordion__title" href="#" data-toggle="collapse">Can I buy WBC tokens from Coinbase?</a>
+                            <div class="accordion__content" role="tabpanel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui vitae animi, minima quod voluptatibus, molestiae tempore rem adipisci error exercitationem quam. Pariatur voluptas, blanditiis commodi optio adipisci quos enim eum.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <a class="accordion__title" href="#" data-toggle="collapse">Do you have whitepaper?</a>
+                            <div class="accordion__content" role="tabpanel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui vitae animi, minima quod voluptatibus, molestiae tempore rem adipisci error exercitationem quam. Pariatur voluptas, blanditiis commodi optio adipisci quos enim eum.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <a class="accordion__title" href="#" data-toggle="collapse">What is your first exchange?</a>
+                            <div class="accordion__content" role="tabpanel">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui vitae animi, minima quod voluptatibus, molestiae tempore rem adipisci error exercitationem quam. Pariatur voluptas, blanditiis commodi optio adipisci quos enim eum.</p>
+                            </div>
+                        </div>
+                    </div><!-- /.accordion -->
+                </div><!-- /.block -->
+            </div>
+
+            <div class="col-lg-5">
+                <div class="block wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".5s">
+                    <h3 class="block__title">Contact Us</h3>
+                    <form action="contact.php" method="post" id="contact_form" data-success="Thanks! We reply you soon!" data-warning="Something go wrong, please try again later!" data-danger="Please, fill up all fields!">
+                        <div class="form-group">
+                            <label for="help_name">Name</label>
+                            <input type="text" class="form-control" name="help_name" id="help_name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="help_email">E-mail</label>
+                            <input type="email" class="form-control" name="help_email" id="help_email" placeholder="Enter your e-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="help_subject">Subject</label>
+                            <input type="text" class="form-control" name="help_subject" id="help_subject" placeholder="Enter subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="help_text">Text</label>
+                            <textarea class="form-control" name="help_text" id="help_text" placeholder="Enter text"></textarea>
+                        </div>
+                        <button class="btn  btn-success" type="button" data-submit-form="#contact_form">Send message</button>
+                    </form>
+                </div>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+</section><!-- /.section -->
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <img class="wow fadeInUp" data-wow-duration=".5s" src="assets/i/logo-big.png" alt="">
+
+        <form class="footer__form wow fadeInUp" data-wow-duration=".5s" action="subscribe.php" method="post" id="subscribe_form" data-success="Thanks for subscription!" data-warning="Something go wrong, please try again later!" data-danger="Please, fill up all fields!">
+            <div class="footer__form-title">Stay Updated About News and Announcements</div>
+            <div class="form-group">
+                <input class="form-control" type="email" name="subscribe_email" placeholder="Enter email">
+                <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <button class="btn  btn-primary" type="button" data-submit-form="#subscribe_form">Sign Up</button>
+            </div>
+        </form>
+
+        <div class="social wow fadeInUp" data-wow-duration=".5s">
+            <div class="social__title">Follow us:</div>
+            <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-slack"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-bitcoin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+        </div>
+
+        <div class="disclaimer wow fadeInUp" data-wow-duration=".5s">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam saepe unde error magnam distinctio cupiditate beatae ducimus voluptatibus repellendus neque. Id similique quasi, esse repellendus distinctio porro perferendis cumque excepturi.
+        </div>
+
+        <div class="footer__info wow fadeInUp" data-wow-duration=".5s">
+            <p>&copy; webcoin.com</p>
+            <p>WEBCOIN ENT (151654568)</p>
+            <p>New York, Street 22 USA</p>
+        </div>
+
+        <button class="footer__up" type="button" data-scroll="#intro"><i class="fas fa-chevron-circle-up"></i></button>
+
+    </div><!-- /.container -->
+</footer>
+
+
+
+<!-- Modals -->
+<div class="modal fade" tabindex="-1" role="dialog" id="exit_modal">
+    <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+            <a class="modal-close" href="#" data-dismiss="modal" aria-label="Close">
+                <i class="far fa-times-circle"></i>
+            </a>
+            <div class="modal-header">
+                <h4 class="modal-title">Stay Updated About News and Announcements</h4>
+            </div>
+            <div class="modal-body">
+                <form class="footer__form" action="subscribe.php" method="post" id="subscribe_form_modal" data-success="Thanks for subscription!" data-warning="Something go wrong, please try again later!" data-danger="Please, fill up all fields!">
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="subscribe_email" placeholder="Enter email">
+                        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <button class="btn  btn-primary" type="button" data-submit-form="#subscribe_form_modal">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="whitelist_modal">
+    <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+            <a class="modal-close" href="#" data-dismiss="modal" aria-label="Close">
+                <i class="far fa-times-circle"></i>
+            </a>
+            <div class="modal-header">
+                <h4 class="modal-title">Join Tokensale</h4>
+            </div>
+            <div class="modal-body">
+                <p>Divide. Very male day every moveth gathering all seasons above lights bearing. Face female Fifth his bring.</p>
+                <form class="footer__form" action="whitelist.php" method="post" id="whitelist_form" data-success="Great! You are in whitelist!" data-warning="Something go wrong, please try again later!" data-danger="Please, fill up all fields!">
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="whitelist_email" placeholder="Enter email">
+                        <button class="btn  btn-primary" type="button" data-submit-form="#whitelist_form">Join Whitelist</button>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- JS section -->
+<script src="assets/js/main.min.js?v=1.0.0"></script>
+
+
+</body>
+</html>
